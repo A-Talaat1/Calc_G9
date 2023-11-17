@@ -5,5 +5,6 @@ double addition(double *result, double operand1 ,double  operand2) ;
 double Division(double *result, double operand1 ,double  operand2) ;
 double multiplication(double *result, double operand1 ,double  operand2) ;
 double subtraction(double *result, double operand1 ,double  operand2) ;
+double modulus(double *result, double operand1 ,double  operand2) ;
 
 #endif CALCULATOR_H_
