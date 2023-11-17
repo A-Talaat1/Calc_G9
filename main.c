@@ -2,6 +2,41 @@
 #include <stdlib.h>
 #include< calculator.h>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include<calculator.h>
+
+double addition(double *result, double operand1 ,double  operand2) 
+{
+*result = operand1+operand2;
+return 1; //succeeded
+}
 int main()
 {
     double result; 
