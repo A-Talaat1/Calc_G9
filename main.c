@@ -2,6 +2,16 @@
 #include <stdlib.h>
 #include< calculator.h>
 
+
+
+double subtraction(double *result, double operand1 ,double  operand2) 
+{
+*result = operand1-operand2;
+return 1; //succeeded
+}
+
+
+
 double multiplication(double *result, double operand1 ,double  operand2) 
 {
 *result = operand1*operand2;
