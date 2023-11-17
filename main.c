@@ -2,25 +2,6 @@
 #include <stdlib.h>
 #include< calculator.h>
 
-double addition(double *result, double operand1 ,double  operand2) 
-{
-*result = operand1+operand2;
-return 1; //succeeded
-}
-
-double subtraction(double *result, double operand1 ,double  operand2) 
-{
-*result = operand1-operand2;
-return 1; //succeeded
-}
-
-
-double multiplication(double *result, double operand1 ,double  operand2) 
-{
-*result = operand1*operand2;
-return 1; //succeeded
-}
-
 int main()
 {
     double result; 
@@ -56,4 +37,32 @@ int main()
     printf("%f", result);
 
     return 0;
+}
+double addition(double *result, double operand1 ,double  operand2) 
+{
+*result = operand1+operand2;
+return 1; //succeeded
+}
+
+double subtraction(double *result, double operand1 ,double  operand2) 
+{
+*result = operand1-operand2;
+return 1; //succeeded
+}
+
+
+double multiplication(double *result, double operand1 ,double  operand2) 
+{
+*result = operand1*operand2;
+return 1; //succeeded
+}
+
+double Division(double *result, double operand1 ,double  operand2) 
+{
+   if(operand2 == 0){
+        printf("it's forbidden");
+        return 0;
+    }
+*result = operand1/operand2;
+return 1; //succeeded
 }
