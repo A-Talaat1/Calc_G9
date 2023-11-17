@@ -27,7 +27,7 @@ int main()
     double firstOperand =0;
     double secondOperand =0;
     int operation ; 
- printf("enter the first operand : \n");
+    printf("enter the first operand : \n");
     scanf("%lf", &firstOperand);
     printf("enter the second operand : \n");
     scanf("%lf", &secondOperand);
