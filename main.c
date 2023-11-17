@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include< calculator.h>
+#include "calculator.h"
 
 double multiplication(double *result, double operand1 ,double  operand2) 
 {
@@ -14,7 +14,7 @@ int main()
     double firstOperand =0;
     double secondOperand =0;
     int operation ; 
- printf("enter the first operand : \n");
+    printf("enter the first operand : \n");
     scanf("%lf", &firstOperand);
     printf("enter the second operand : \n");
     scanf("%lf", &secondOperand);
@@ -35,12 +35,15 @@ int main()
         case 3:
         Division(&result ,firstOperand ,secondOperand);
         break;
+        case 4:
+        modulus(&result ,firstOperand ,secondOperand);
+        break;
         default:
         printf("it's done");
         
     }
 
-    printf("%f", result);
+    printf("%lf", result);
 
     return 0;
 }
